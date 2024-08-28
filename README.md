@@ -1,4 +1,4 @@
-This is a repo for [A Graph per Persona: Reasoning about Subjective Natural Language Descriptions](https://aclanthology.org/2024.findings-acl.115/), which was accepted at ACL-Finding 2024.
+This is a repo for [A Graph per Persona: Reasoning about Subjective Natural Language Descriptions](https://aclanthology.org/2024.findings-acl.115/), accepted at ACL-Findings 2024.
 
 ```
 @inproceedings{hwang-etal-2024-graph,
