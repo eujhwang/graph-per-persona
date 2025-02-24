@@ -1,5 +1,14 @@
 This is a repo for [A Graph per Persona: Reasoning about Subjective Natural Language Descriptions](https://aclanthology.org/2024.findings-acl.115/), accepted at ACL-Findings 2024.
 
+Our code is adapted from AttnIO implementation from this github: https://github.com/rajbsk/kg-cruse
+
+## Data
+We use sampled_user_responses_20.json [data](https://github.com/eujhwang/personalized-llms/blob/main/data/opinionqa/) from this github: https://github.com/eujhwang/personalized-llms.
+
+## Example Command
+`python main.py --add_imp=5 --batch_size=8 --conn_type=t5-base --early_stopping=20 --epoch=30 --learning_rate=5e-05 --loss_type=full --num_head=3 --num_op=16 --num_ques=30 --path_len=3 --path_topk=5 --pretrained_model=BAAI/bge-base-en-v1.5 --seed=42 --survey=$1 --threshold=0.1 --weight_decay=0 --do_train --do_eval`
+
+## Citation
 ```
 @inproceedings{hwang-etal-2024-graph,
     title = "A Graph per Persona: Reasoning about Subjective Natural Language Descriptions",
